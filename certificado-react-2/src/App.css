@@ -1,25 +1,30 @@
+
 .App {
   text-align: center;
+  color:blanchedalmond;
 }
+
 .Calculadora{
-  height: 380px;
+  height: 480px;
   width: 753px;
-  border-radius: 360px;
+  border-radius: 300px;
   overflow: hidden;
-  background-color:black;
+  background-color:orangered;
 color: crimson;
  display: grid;
  grid-template-columns: repeat(auto);
- grid-template-rows:auto;
+ grid-template-rows:subgrid;
  margin: auto;
-
 }
-
+.button{
+background-color: black;
+color: darkgoldenrod;
+}
 .Display{
   background-color: darkgoldenrod;
  margin: auto;;
  height: 130px;
-color: white;
+color: whitesmoke;
 
 }
 
@@ -35,14 +40,14 @@ color: white;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: chartreuse;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:aqua;
 }
 
 .App-link {
